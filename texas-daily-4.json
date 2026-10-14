@@ -1,0 +1,4466 @@
+{
+  "metadata": {
+    "schema_version": "1.0.0-provisional",
+    "game": "Texas Daily 4",
+    "currency": "USD",
+    "extraction_date": "2026-10-13",
+    "status": "provisional_remote_extraction_archive_blocked",
+    "original_archive_complete": false,
+    "local_pdf_parsing_complete": false,
+    "all_four_sources_inspected": false,
+    "ready_for_publication": false,
+    "method": "Manual structured transcription of web-tool text from two official PDFs; generated six-tier rows from printed proportional amounts.",
+    "citation_scope": "Citations identify original filenames and printed figures/pages. They do NOT assert those originals exist locally. Local evidence is in sources/*web-extract.txt.",
+    "amount_semantics": "base_play_amount_usd is the source column amount, not necessarily the board cost. Prizes are gross payouts, before subtracting cost.",
+    "odds_semantics": "Preserve source denominators as printed, including rounded values; do not interpret them as exact probabilities.",
+    "sources": [
+      {
+        "filename": "How_to_Play_Daily_4.html",
+        "url": "https://www.texaslottery.com/export/sites/lottery/Games/Daily_4/How_to_Play_Daily_4.html",
+        "expected_archive_path": "/sources/How_to_Play_Daily_4.html",
+        "original_archived": false,
+        "download_http_status": 403,
+        "download_error": "CloudFront blocks access from the downloader country.",
+        "remote_text_inspected": false,
+        "source_citation": "How_to_Play_Daily_4.html unavailable; no content cited"
+      },
+      {
+        "filename": "HTP_Daily4_ENG.pdf",
+        "url": "https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Daily4_ENG.pdf",
+        "expected_archive_path": "/sources/HTP_Daily4_ENG.pdf",
+        "original_archived": false,
+        "download_http_status": 403,
+        "download_error": "CloudFront blocks access from the downloader country.",
+        "remote_text_inspected": true,
+        "source_citation": "HTP_Daily4_ENG.pdf Pages 1-2"
+      },
+      {
+        "filename": "daily4_fireball_prize_chart.pdf",
+        "url": "https://www.texaslottery.com/export/sites/lottery/Documents/daily4_fireball_prize_chart.pdf",
+        "expected_archive_path": "/sources/daily4_fireball_prize_chart.pdf",
+        "original_archived": false,
+        "download_http_status": 403,
+        "download_error": "CloudFront blocks access from the downloader country.",
+        "remote_text_inspected": false,
+        "source_citation": "daily4_fireball_prize_chart.pdf Page 1; contents not readable in available tool output"
+      },
+      {
+        "filename": "DAILY-4-FIGURES-g-4-g-14.pdf",
+        "url": "https://www.texaslottery.com/export/sites/lottery/Documents/DAILY-4-FIGURES-g-4-g-14.pdf",
+        "expected_archive_path": "/sources/DAILY-4-FIGURES-g-4-g-14.pdf",
+        "original_archived": false,
+        "download_http_status": 403,
+        "download_error": "CloudFront blocks access from the downloader country.",
+        "remote_text_inspected": true,
+        "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+      }
+    ],
+    "source_citation": "HTP_Daily4_ENG.pdf Pages 1-2; DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+  },
+  "drawing_schedule": {
+    "drawings_per_drawing_day": 4,
+    "drawing_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "non_drawing_days": [
+      "Sunday"
+    ],
+    "timezone_label": "CT",
+    "draws": [
+      {
+        "name": "Morning",
+        "local_time_24h": "10:00",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, DID YOU WIN? and MULTI-DRAW"
+      },
+      {
+        "name": "Day",
+        "local_time_24h": "12:27",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, DID YOU WIN? and MULTI-DRAW"
+      },
+      {
+        "name": "Evening",
+        "local_time_24h": "18:00",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, DID YOU WIN? and MULTI-DRAW"
+      },
+      {
+        "name": "Night",
+        "local_time_24h": "22:12",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, DID YOU WIN? and MULTI-DRAW"
+      }
+    ],
+    "source_citation": "HTP_Daily4_ENG.pdf Page 1, DID YOU WIN? and MULTI-DRAW"
+  },
+  "multi_draw": {
+    "min_drawings": 1,
+    "max_drawings": 24,
+    "minimum_basis": "One drawing is an ordinary play; Multi-Draw extends it up to 24 consecutive drawings.",
+    "modes": [
+      {
+        "id": "consecutive",
+        "description": "Use consecutive scheduled drawings across the four draw times.",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, MULTI-DRAW"
+      },
+      {
+        "id": "same_draw_time",
+        "description": "Use consecutive drawings at one selected draw time.",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, MULTI-DRAW"
+      }
+    ],
+    "source_citation": "HTP_Daily4_ENG.pdf Page 1, MULTI-DRAW"
+  },
+  "wager_options": [
+    {
+      "base_play_amount_usd": 0.5,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    },
+    {
+      "base_play_amount_usd": 1,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    },
+    {
+      "base_play_amount_usd": 2,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    },
+    {
+      "base_play_amount_usd": 3,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    },
+    {
+      "base_play_amount_usd": 4,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    },
+    {
+      "base_play_amount_usd": 5,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+    }
+  ],
+  "play_types": [
+    {
+      "id": "straight",
+      "name": "Straight",
+      "match_rule": "All four digits must match in their selected positions.",
+      "variants": [
+        {
+          "id": "quads",
+          "digit_multiplicities": [
+            4
+          ],
+          "example_selected": "1111",
+          "base_odds_one_in": 10000,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 4,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1111",
+              "example_drawn": "1111",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 21600,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 27000,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 2778,
+              "example_selected": "1111",
+              "example_drawn": "1411",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+        },
+        {
+          "id": "two_pairs",
+          "digit_multiplicities": [
+            2,
+            2
+          ],
+          "example_selected": "1212",
+          "base_odds_one_in": 10000,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 50000,
+              "example_selected": "1212",
+              "example_drawn": "1212",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 2778,
+              "example_selected": "1212",
+              "example_drawn": "0212",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+        },
+        {
+          "id": "three_equal",
+          "digit_multiplicities": [
+            3,
+            1
+          ],
+          "example_selected": "1222",
+          "base_odds_one_in": 10000,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1222",
+              "example_drawn": "1222",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 2025,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 12150,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 20250,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 2703,
+              "example_selected": "1222",
+              "example_drawn": "1272",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+        },
+        {
+          "id": "all_distinct",
+          "digit_multiplicities": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "example_selected": "1234",
+          "base_odds_one_in": 10000,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 2500,
+              "example_selected": "1234",
+              "example_drawn": "1284",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+        },
+        {
+          "id": "one_pair",
+          "digit_multiplicities": [
+            2,
+            1,
+            1
+          ],
+          "example_selected": "1224",
+          "base_odds_one_in": 10000,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1224",
+              "example_drawn": "1224",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 2632,
+              "example_selected": "1224",
+              "example_drawn": "1324",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+        }
+      ],
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "match_rule": "The multiset of four digits must match; order does not matter.",
+      "variants": [
+        {
+          "id": "4_way",
+          "ways": 4,
+          "digit_multiplicities": [
+            3,
+            1
+          ],
+          "example_selected": "1222",
+          "base_odds_one_in": 2500,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 600,
+              "fireball_prize_per_hit_usd": 170,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 1200,
+              "fireball_prize_per_hit_usd": 340,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 2400,
+              "fireball_prize_per_hit_usd": 680,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 3600,
+              "fireball_prize_per_hit_usd": 1020,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 4800,
+              "fireball_prize_per_hit_usd": 1360,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 6000,
+              "fireball_prize_per_hit_usd": 1700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 4,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1222",
+              "example_drawn": "2222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2720,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 4080,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5440,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 6800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 25000,
+              "example_selected": "1222",
+              "example_drawn": "2212",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 510,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1020,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2040,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 3060,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 4080,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 5100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 16667,
+              "example_selected": "1222",
+              "example_drawn": "2211",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 340,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 2040,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2720,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 3400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 758,
+              "example_selected": "1222",
+              "example_drawn": "1252",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 170,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 340,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 1020,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 1700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(5), Page 1"
+        },
+        {
+          "id": "6_way",
+          "ways": 6,
+          "digit_multiplicities": [
+            2,
+            2
+          ],
+          "example_selected": "1212",
+          "base_odds_one_in": 1667,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 400,
+              "fireball_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 800,
+              "fireball_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 1600,
+              "fireball_prize_per_hit_usd": 448,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 2400,
+              "fireball_prize_per_hit_usd": 672,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 3200,
+              "fireball_prize_per_hit_usd": 896,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 4000,
+              "fireball_prize_per_hit_usd": 1120,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 12500,
+              "example_selected": "1212",
+              "example_drawn": "1112",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 2016,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2688,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 3360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 8333,
+              "example_selected": "1212",
+              "example_drawn": "2121",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1792,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 2240,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 521,
+              "example_selected": "1212",
+              "example_drawn": "9221",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 1120,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(6), Page 1"
+        },
+        {
+          "id": "12_way",
+          "ways": 12,
+          "digit_multiplicities": [
+            2,
+            1,
+            1
+          ],
+          "example_selected": "1223",
+          "base_odds_one_in": 833,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 200,
+              "fireball_prize_per_hit_usd": 56,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 400,
+              "fireball_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 800,
+              "fireball_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 1200,
+              "fireball_prize_per_hit_usd": 336,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 1600,
+              "fireball_prize_per_hit_usd": 448,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 2000,
+              "fireball_prize_per_hit_usd": 560,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 12500,
+              "example_selected": "1223",
+              "example_drawn": "3222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 1008,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 1680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 2083,
+              "example_selected": "1223",
+              "example_drawn": "2211",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 1120,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 278,
+              "example_selected": "1223",
+              "example_drawn": "7322",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 560,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(7), Page 1"
+        },
+        {
+          "id": "24_way",
+          "ways": 24,
+          "digit_multiplicities": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "example_selected": "1234",
+          "base_odds_one_in": 417,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 0.5,
+              "board_cost_with_fireball_usd": 1,
+              "base_prize_usd": 100,
+              "fireball_prize_per_hit_usd": 28,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "base_prize_usd": 200,
+              "fireball_prize_per_hit_usd": 56,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 400,
+              "fireball_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 600,
+              "fireball_prize_per_hit_usd": 168,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 800,
+              "fireball_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 5,
+              "board_cost_with_fireball_usd": 10,
+              "base_prize_usd": 1000,
+              "fireball_prize_per_hit_usd": 280,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 694,
+              "example_selected": "1234",
+              "example_drawn": "4142",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 560,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 149,
+              "example_selected": "1234",
+              "example_drawn": "9432",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 280,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(8), Page 1"
+        }
+      ],
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(5)-(8), Page 1"
+    },
+    {
+      "id": "straight_box",
+      "name": "Straight/Box",
+      "minimum_board_cost_usd": 1,
+      "minimum_board_cost_with_fireball_usd": 2,
+      "match_rule": "An exact match pays both components; another ordering pays only the Box component.",
+      "wager_semantics": "The published base-play amount is staked on EACH component. Board cost is twice that amount before Fireball.",
+      "variants": [
+        {
+          "id": "4_way",
+          "ways": 4,
+          "digit_multiplicities": [
+            3,
+            1
+          ],
+          "example_selected": "1222",
+          "base_any_prize_odds_one_in": 2500,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "straight_component_prize_usd": 2500,
+              "box_component_prize_usd": 600,
+              "exact_match_combined_prize_usd": 3100,
+              "box_only_match_prize_usd": 600,
+              "fireball_straight_prize_per_hit_usd": 675,
+              "fireball_box_prize_per_hit_usd": 170,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "straight_component_prize_usd": 5000,
+              "box_component_prize_usd": 1200,
+              "exact_match_combined_prize_usd": 6200,
+              "box_only_match_prize_usd": 1200,
+              "fireball_straight_prize_per_hit_usd": 1350,
+              "fireball_box_prize_per_hit_usd": 340,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "straight_component_prize_usd": 10000,
+              "box_component_prize_usd": 2400,
+              "exact_match_combined_prize_usd": 12400,
+              "box_only_match_prize_usd": 2400,
+              "fireball_straight_prize_per_hit_usd": 2700,
+              "fireball_box_prize_per_hit_usd": 680,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "straight_component_prize_usd": 15000,
+              "box_component_prize_usd": 3600,
+              "exact_match_combined_prize_usd": 18600,
+              "box_only_match_prize_usd": 3600,
+              "fireball_straight_prize_per_hit_usd": 4050,
+              "fireball_box_prize_per_hit_usd": 1020,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 8,
+              "board_cost_with_fireball_usd": 16,
+              "straight_component_prize_usd": 20000,
+              "box_component_prize_usd": 4800,
+              "exact_match_combined_prize_usd": 24800,
+              "box_only_match_prize_usd": 4800,
+              "fireball_straight_prize_per_hit_usd": 5400,
+              "fireball_box_prize_per_hit_usd": 1360,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 10,
+              "board_cost_with_fireball_usd": 20,
+              "straight_component_prize_usd": 25000,
+              "box_component_prize_usd": 6000,
+              "exact_match_combined_prize_usd": 31000,
+              "box_only_match_prize_usd": 6000,
+              "fireball_straight_prize_per_hit_usd": 6750,
+              "fireball_box_prize_per_hit_usd": 1700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "box_hits": 3,
+              "straight_hits": 3,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1222",
+              "example_drawn": "1222",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 2535,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 5070,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 10140,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 15210,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 20280,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 25350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 4,
+              "straight_hits": 1,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1222",
+              "example_drawn": "2222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1355,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2710,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5420,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 8130,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 10840,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 13550,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 3,
+              "straight_hits": 0,
+              "printed_odds_one_in": 33333,
+              "example_selected": "1222",
+              "example_drawn": "2122",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 510,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1020,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2040,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 3060,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 4080,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 5100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 1,
+              "printed_odds_one_in": 33333,
+              "example_selected": "1222",
+              "example_drawn": "1122",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1015,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2030,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 4060,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 6090,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 8120,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 10150,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 0,
+              "printed_odds_one_in": 33333,
+              "example_selected": "1222",
+              "example_drawn": "2112",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 340,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 2040,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 2720,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 3400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 1,
+              "printed_odds_one_in": 3030,
+              "example_selected": "1222",
+              "example_drawn": "0222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 845,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1690,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 3380,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 5070,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 6760,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 8450,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 0,
+              "printed_odds_one_in": 1010,
+              "example_selected": "1222",
+              "example_drawn": "0122",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 170,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 340,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 1020,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 1360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 1700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(9), Page 2"
+        },
+        {
+          "id": "6_way",
+          "ways": 6,
+          "digit_multiplicities": [
+            2,
+            2
+          ],
+          "example_selected": "1212",
+          "base_any_prize_odds_one_in": 1667,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "straight_component_prize_usd": 2500,
+              "box_component_prize_usd": 400,
+              "exact_match_combined_prize_usd": 2900,
+              "box_only_match_prize_usd": 400,
+              "fireball_straight_prize_per_hit_usd": 675,
+              "fireball_box_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "straight_component_prize_usd": 5000,
+              "box_component_prize_usd": 800,
+              "exact_match_combined_prize_usd": 5800,
+              "box_only_match_prize_usd": 800,
+              "fireball_straight_prize_per_hit_usd": 1350,
+              "fireball_box_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "straight_component_prize_usd": 10000,
+              "box_component_prize_usd": 1600,
+              "exact_match_combined_prize_usd": 11600,
+              "box_only_match_prize_usd": 1600,
+              "fireball_straight_prize_per_hit_usd": 2700,
+              "fireball_box_prize_per_hit_usd": 448,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "straight_component_prize_usd": 15000,
+              "box_component_prize_usd": 2400,
+              "exact_match_combined_prize_usd": 17400,
+              "box_only_match_prize_usd": 2400,
+              "fireball_straight_prize_per_hit_usd": 4050,
+              "fireball_box_prize_per_hit_usd": 672,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 8,
+              "board_cost_with_fireball_usd": 16,
+              "straight_component_prize_usd": 20000,
+              "box_component_prize_usd": 3200,
+              "exact_match_combined_prize_usd": 23200,
+              "box_only_match_prize_usd": 3200,
+              "fireball_straight_prize_per_hit_usd": 5400,
+              "fireball_box_prize_per_hit_usd": 896,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 10,
+              "board_cost_with_fireball_usd": 20,
+              "straight_component_prize_usd": 25000,
+              "box_component_prize_usd": 4000,
+              "exact_match_combined_prize_usd": 29000,
+              "box_only_match_prize_usd": 4000,
+              "fireball_straight_prize_per_hit_usd": 6750,
+              "fireball_box_prize_per_hit_usd": 1120,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "box_hits": 2,
+              "straight_hits": 2,
+              "printed_odds_one_in": 50000,
+              "example_selected": "1212",
+              "example_drawn": "1212",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1574,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 3148,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 6296,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 9444,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 12592,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 15740,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "box_hits": 3,
+              "straight_hits": 1,
+              "printed_odds_one_in": 25000,
+              "example_selected": "1212",
+              "example_drawn": "1112",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1011,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2022,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 4044,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 6066,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 8088,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 10110,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "box_hits": 3,
+              "straight_hits": 0,
+              "printed_odds_one_in": 25000,
+              "example_selected": "1212",
+              "example_drawn": "1121",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 2016,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 2688,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 3360,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 0,
+              "printed_odds_one_in": 10000,
+              "example_selected": "1212",
+              "example_drawn": "1122",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 1792,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 2240,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 1,
+              "printed_odds_one_in": 3125,
+              "example_selected": "1212",
+              "example_drawn": "0212",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 787,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1574,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 3148,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4722,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 6296,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 7870,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 0,
+              "printed_odds_one_in": 625,
+              "example_selected": "1212",
+              "example_drawn": "0112",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 1120,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(10), Page 2"
+        },
+        {
+          "id": "12_way",
+          "ways": 12,
+          "digit_multiplicities": [
+            2,
+            1,
+            1
+          ],
+          "example_selected": "1223",
+          "base_any_prize_odds_one_in": 833,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "straight_component_prize_usd": 2500,
+              "box_component_prize_usd": 200,
+              "exact_match_combined_prize_usd": 2700,
+              "box_only_match_prize_usd": 200,
+              "fireball_straight_prize_per_hit_usd": 675,
+              "fireball_box_prize_per_hit_usd": 56,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "straight_component_prize_usd": 5000,
+              "box_component_prize_usd": 400,
+              "exact_match_combined_prize_usd": 5400,
+              "box_only_match_prize_usd": 400,
+              "fireball_straight_prize_per_hit_usd": 1350,
+              "fireball_box_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "straight_component_prize_usd": 10000,
+              "box_component_prize_usd": 800,
+              "exact_match_combined_prize_usd": 10800,
+              "box_only_match_prize_usd": 800,
+              "fireball_straight_prize_per_hit_usd": 2700,
+              "fireball_box_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "straight_component_prize_usd": 15000,
+              "box_component_prize_usd": 1200,
+              "exact_match_combined_prize_usd": 16200,
+              "box_only_match_prize_usd": 1200,
+              "fireball_straight_prize_per_hit_usd": 4050,
+              "fireball_box_prize_per_hit_usd": 336,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 8,
+              "board_cost_with_fireball_usd": 16,
+              "straight_component_prize_usd": 20000,
+              "box_component_prize_usd": 1600,
+              "exact_match_combined_prize_usd": 21600,
+              "box_only_match_prize_usd": 1600,
+              "fireball_straight_prize_per_hit_usd": 5400,
+              "fireball_box_prize_per_hit_usd": 448,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 10,
+              "board_cost_with_fireball_usd": 20,
+              "straight_component_prize_usd": 25000,
+              "box_component_prize_usd": 2000,
+              "exact_match_combined_prize_usd": 27000,
+              "box_only_match_prize_usd": 2000,
+              "fireball_straight_prize_per_hit_usd": 6750,
+              "fireball_box_prize_per_hit_usd": 560,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "box_hits": 3,
+              "straight_hits": 1,
+              "printed_odds_one_in": 50000,
+              "example_selected": "1223",
+              "example_drawn": "1222",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 843,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1686,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 3372,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 5058,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 6744,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 8430,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 3,
+              "straight_hits": 0,
+              "printed_odds_one_in": 16667,
+              "example_selected": "1223",
+              "example_drawn": "2122",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 1008,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 1344,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 1680,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 2,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1223",
+              "example_drawn": "1223",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 1462,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2924,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5848,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 8772,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 11696,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 14620,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 1,
+              "printed_odds_one_in": 16667,
+              "example_selected": "1223",
+              "example_drawn": "1123",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 787,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1574,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 3148,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4722,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 6296,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 7870,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 1,
+              "printed_odds_one_in": 3333,
+              "example_selected": "1223",
+              "example_drawn": "0223",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 731,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1462,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2924,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4386,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 5848,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 7310,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 0,
+              "printed_odds_one_in": 2439,
+              "example_selected": "1223",
+              "example_drawn": "1122",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 672,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 896,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 1120,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 0,
+              "printed_odds_one_in": 303,
+              "example_selected": "1223",
+              "example_drawn": "0122",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 560,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(11), Page 2"
+        },
+        {
+          "id": "24_way",
+          "ways": 24,
+          "digit_multiplicities": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "example_selected": "1234",
+          "base_any_prize_odds_one_in": 417,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 1,
+              "board_cost_with_fireball_usd": 2,
+              "straight_component_prize_usd": 2500,
+              "box_component_prize_usd": 100,
+              "exact_match_combined_prize_usd": 2600,
+              "box_only_match_prize_usd": 100,
+              "fireball_straight_prize_per_hit_usd": 675,
+              "fireball_box_prize_per_hit_usd": 28,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "straight_component_prize_usd": 5000,
+              "box_component_prize_usd": 200,
+              "exact_match_combined_prize_usd": 5200,
+              "box_only_match_prize_usd": 200,
+              "fireball_straight_prize_per_hit_usd": 1350,
+              "fireball_box_prize_per_hit_usd": 56,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "straight_component_prize_usd": 10000,
+              "box_component_prize_usd": 400,
+              "exact_match_combined_prize_usd": 10400,
+              "box_only_match_prize_usd": 400,
+              "fireball_straight_prize_per_hit_usd": 2700,
+              "fireball_box_prize_per_hit_usd": 112,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "straight_component_prize_usd": 15000,
+              "box_component_prize_usd": 600,
+              "exact_match_combined_prize_usd": 15600,
+              "box_only_match_prize_usd": 600,
+              "fireball_straight_prize_per_hit_usd": 4050,
+              "fireball_box_prize_per_hit_usd": 168,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 8,
+              "board_cost_with_fireball_usd": 16,
+              "straight_component_prize_usd": 20000,
+              "box_component_prize_usd": 800,
+              "exact_match_combined_prize_usd": 20800,
+              "box_only_match_prize_usd": 800,
+              "fireball_straight_prize_per_hit_usd": 5400,
+              "fireball_box_prize_per_hit_usd": 224,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 10,
+              "board_cost_with_fireball_usd": 20,
+              "straight_component_prize_usd": 25000,
+              "box_component_prize_usd": 1000,
+              "exact_match_combined_prize_usd": 26000,
+              "box_only_match_prize_usd": 1000,
+              "fireball_straight_prize_per_hit_usd": 6750,
+              "fireball_box_prize_per_hit_usd": 280,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "box_hits": 2,
+              "straight_hits": 1,
+              "printed_odds_one_in": 8333,
+              "example_selected": "1234",
+              "example_drawn": "1134",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 731,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1462,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2924,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4386,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 5848,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 7310,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 1,
+              "printed_odds_one_in": 3571,
+              "example_selected": "1234",
+              "example_drawn": "0234",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 703,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1406,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2812,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4218,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 5624,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 7030,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "box_hits": 2,
+              "straight_hits": 0,
+              "printed_odds_one_in": 758,
+              "example_selected": "1234",
+              "example_drawn": "1123",
+              "example_fireball": "4",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 336,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 448,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 560,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            },
+            {
+              "box_hits": 1,
+              "straight_hits": 0,
+              "printed_odds_one_in": 155,
+              "example_selected": "1234",
+              "example_drawn": "0123",
+              "example_fireball": "4",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 20,
+                  "fireball_prize_usd": 280,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(12), Page 2"
+        }
+      ],
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(9)-(12), Page 2"
+    },
+    {
+      "id": "combo",
+      "name": "Combo",
+      "match_rule": "Buy each distinct ordering as a separate Straight play on the same ticket.",
+      "variants": [
+        {
+          "id": "4_way",
+          "ways": 4,
+          "digit_multiplicities": [
+            3,
+            1
+          ],
+          "example_selected": "1222",
+          "base_odds_one_in": 2500,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 2,
+              "board_cost_with_fireball_usd": 4,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 4,
+              "board_cost_with_fireball_usd": 8,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 8,
+              "board_cost_with_fireball_usd": 16,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 12,
+              "board_cost_with_fireball_usd": 24,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 16,
+              "board_cost_with_fireball_usd": 32,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 20,
+              "board_cost_with_fireball_usd": 40,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 4,
+              "printed_odds_one_in": 100000,
+              "example_selected": "1222",
+              "example_drawn": "2222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 32,
+                  "fireball_prize_usd": 21600,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 40,
+                  "fireball_prize_usd": 27000,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 25000,
+              "example_selected": "1222",
+              "example_drawn": "2212",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 2025,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 12150,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 32,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 40,
+                  "fireball_prize_usd": 20250,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 16667,
+              "example_selected": "1222",
+              "example_drawn": "2211",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 32,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 40,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 758,
+              "example_selected": "1222",
+              "example_drawn": "1252",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 16,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 32,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 40,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+        },
+        {
+          "id": "6_way",
+          "ways": 6,
+          "digit_multiplicities": [
+            2,
+            2
+          ],
+          "example_selected": "1212",
+          "base_odds_one_in": 1667,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 3,
+              "board_cost_with_fireball_usd": 6,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 12,
+              "board_cost_with_fireball_usd": 24,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 18,
+              "board_cost_with_fireball_usd": 36,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 24,
+              "board_cost_with_fireball_usd": 48,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 30,
+              "board_cost_with_fireball_usd": 60,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 12500,
+              "example_selected": "1212",
+              "example_drawn": "1112",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 2025,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 36,
+                  "fireball_prize_usd": 12150,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 60,
+                  "fireball_prize_usd": 20250,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 8333,
+              "example_selected": "1212",
+              "example_drawn": "2121",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 36,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 60,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 521,
+              "example_selected": "1212",
+              "example_drawn": "9221",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 36,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 60,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+        },
+        {
+          "id": "12_way",
+          "ways": 12,
+          "digit_multiplicities": [
+            2,
+            1,
+            1
+          ],
+          "example_selected": "1223",
+          "base_odds_one_in": 833,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 6,
+              "board_cost_with_fireball_usd": 12,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 12,
+              "board_cost_with_fireball_usd": 24,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 24,
+              "board_cost_with_fireball_usd": 48,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 36,
+              "board_cost_with_fireball_usd": 72,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 48,
+              "board_cost_with_fireball_usd": 96,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 60,
+              "board_cost_with_fireball_usd": 120,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 12500,
+              "example_selected": "1223",
+              "example_drawn": "3222",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 2025,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 72,
+                  "fireball_prize_usd": 12150,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 96,
+                  "fireball_prize_usd": 16200,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 120,
+                  "fireball_prize_usd": 20250,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 2083,
+              "example_selected": "1223",
+              "example_drawn": "2211",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 72,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 96,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 120,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 278,
+              "example_selected": "1223",
+              "example_drawn": "7322",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 12,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 72,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 96,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 120,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+        },
+        {
+          "id": "24_way",
+          "ways": 24,
+          "digit_multiplicities": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "example_selected": "1234",
+          "base_odds_one_in": 417,
+          "payouts": [
+            {
+              "base_play_amount_usd": 0.5,
+              "board_cost_usd": 12,
+              "board_cost_with_fireball_usd": 24,
+              "base_prize_usd": 2500,
+              "fireball_prize_per_hit_usd": 675,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 1,
+              "board_cost_usd": 24,
+              "board_cost_with_fireball_usd": 48,
+              "base_prize_usd": 5000,
+              "fireball_prize_per_hit_usd": 1350,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 2,
+              "board_cost_usd": 48,
+              "board_cost_with_fireball_usd": 96,
+              "base_prize_usd": 10000,
+              "fireball_prize_per_hit_usd": 2700,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 3,
+              "board_cost_usd": 72,
+              "board_cost_with_fireball_usd": 144,
+              "base_prize_usd": 15000,
+              "fireball_prize_per_hit_usd": 4050,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 4,
+              "board_cost_usd": 96,
+              "board_cost_with_fireball_usd": 192,
+              "base_prize_usd": 20000,
+              "fireball_prize_per_hit_usd": 5400,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "base_play_amount_usd": 5,
+              "board_cost_usd": 120,
+              "board_cost_with_fireball_usd": 240,
+              "base_prize_usd": 25000,
+              "fireball_prize_per_hit_usd": 6750,
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 694,
+              "example_selected": "1234",
+              "example_drawn": "4142",
+              "example_fireball": "3",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 96,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 144,
+                  "fireball_prize_usd": 8100,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 192,
+                  "fireball_prize_usd": 10800,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 240,
+                  "fireball_prize_usd": 13500,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 149,
+              "example_selected": "1234",
+              "example_drawn": "9432",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 24,
+                  "fireball_prize_usd": 675,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 48,
+                  "fireball_prize_usd": 1350,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 96,
+                  "fireball_prize_usd": 2700,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 144,
+                  "fireball_prize_usd": 4050,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 192,
+                  "fireball_prize_usd": 5400,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 240,
+                  "fireball_prize_usd": 6750,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+        }
+      ],
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(13), Page 3"
+    },
+    {
+      "id": "pairs",
+      "name": "Pairs",
+      "match_rule": "Match the two selected digits in order at the selected pair positions.",
+      "positions": [
+        {
+          "id": "front",
+          "positions_one_based": [
+            1,
+            2
+          ],
+          "source_citation": "HTP_Daily4_ENG.pdf Page 2, PAIRS; DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "id": "mid",
+          "positions_one_based": [
+            2,
+            3
+          ],
+          "source_citation": "HTP_Daily4_ENG.pdf Page 2, PAIRS; DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "id": "back",
+          "positions_one_based": [
+            3,
+            4
+          ],
+          "source_citation": "HTP_Daily4_ENG.pdf Page 2, PAIRS; DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        }
+      ],
+      "payouts": [
+        {
+          "base_play_amount_usd": 0.5,
+          "board_cost_usd": 0.5,
+          "board_cost_with_fireball_usd": 1,
+          "base_prize_usd": 25,
+          "fireball_prize_per_hit_usd": 7,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "base_play_amount_usd": 1,
+          "board_cost_usd": 1,
+          "board_cost_with_fireball_usd": 2,
+          "base_prize_usd": 50,
+          "fireball_prize_per_hit_usd": 14,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "base_play_amount_usd": 2,
+          "board_cost_usd": 2,
+          "board_cost_with_fireball_usd": 4,
+          "base_prize_usd": 100,
+          "fireball_prize_per_hit_usd": 28,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "base_play_amount_usd": 3,
+          "board_cost_usd": 3,
+          "board_cost_with_fireball_usd": 6,
+          "base_prize_usd": 150,
+          "fireball_prize_per_hit_usd": 42,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "base_play_amount_usd": 4,
+          "board_cost_usd": 4,
+          "board_cost_with_fireball_usd": 8,
+          "base_prize_usd": 200,
+          "fireball_prize_per_hit_usd": 56,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "base_play_amount_usd": 5,
+          "board_cost_usd": 5,
+          "board_cost_with_fireball_usd": 10,
+          "base_prize_usd": 250,
+          "fireball_prize_per_hit_usd": 70,
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        }
+      ],
+      "base_odds_one_in": 100,
+      "variants": [
+        {
+          "id": "equal_digits",
+          "example_pair_position": "front",
+          "example_selected": "11xx",
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 4,
+              "printed_odds_one_in": 1000,
+              "example_selected": "11xx",
+              "example_drawn": "1135",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 224,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 280,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 111,
+              "example_selected": "11xx",
+              "example_drawn": "1135",
+              "example_fireball": "7",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 14,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 84,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 140,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 56,
+              "example_selected": "11xx",
+              "example_drawn": "1694",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 7,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 14,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 42,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 70,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        },
+        {
+          "id": "distinct_digits",
+          "example_pair_position": "front",
+          "example_selected": "12xx",
+          "fireball_outcomes": [
+            {
+              "fireball_hits": 3,
+              "printed_odds_one_in": 500,
+              "example_selected": "12xx",
+              "example_drawn": "1245",
+              "example_fireball": "1",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 21,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 42,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 84,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 126,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 168,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 210,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            },
+            {
+              "fireball_hits": 2,
+              "printed_odds_one_in": 125,
+              "example_selected": "12xx",
+              "example_drawn": "1210",
+              "example_fireball": "6",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 14,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 84,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 112,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 140,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            },
+            {
+              "fireball_hits": 1,
+              "printed_odds_one_in": 56,
+              "example_selected": "12xx",
+              "example_drawn": "1174",
+              "example_fireball": "2",
+              "payouts": [
+                {
+                  "base_play_amount_usd": 0.5,
+                  "board_cost_with_fireball_usd": 1,
+                  "fireball_prize_usd": 7,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 1,
+                  "board_cost_with_fireball_usd": 2,
+                  "fireball_prize_usd": 14,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 2,
+                  "board_cost_with_fireball_usd": 4,
+                  "fireball_prize_usd": 28,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 3,
+                  "board_cost_with_fireball_usd": 6,
+                  "fireball_prize_usd": 42,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 4,
+                  "board_cost_with_fireball_usd": 8,
+                  "fireball_prize_usd": 56,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                },
+                {
+                  "base_play_amount_usd": 5,
+                  "board_cost_with_fireball_usd": 10,
+                  "fireball_prize_usd": 70,
+                  "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+                }
+              ],
+              "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+            }
+          ],
+          "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+        }
+      ],
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+    }
+  ],
+  "fireball": {
+    "board_cost_multiplier": 2,
+    "drawn_digit_min": 0,
+    "drawn_digit_max": 9,
+    "rules": [
+      {
+        "id": "draw",
+        "description": "One extra digit is drawn after each Daily 4 drawing.",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, FIREBALL"
+      },
+      {
+        "id": "replace_one",
+        "description": "Form four candidate results by replacing one drawn digit at a time with Fireball; never replace several positions at once.",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, FIREBALL example"
+      },
+      {
+        "id": "count_positions",
+        "description": "Count successful replacement positions separately, even when they produce identical digit strings.",
+        "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+      },
+      {
+        "id": "separate_prizes",
+        "description": "Evaluate base and Fireball prizes separately. Fireball can win without a base win; when both win, add their payouts.",
+        "source_citation": "HTP_Daily4_ENG.pdf Page 1, FIREBALL example; DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+      },
+      {
+        "id": "per_hit_rates",
+        "description": "Use the published Fireball rate for each winning replacement, rather than the base-game prize.",
+        "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+      },
+      {
+        "id": "split_components",
+        "description": "For Straight/Box, count and pay Straight and Box replacement hits separately, then add them.",
+        "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(9)-(12), Page 2"
+      },
+      {
+        "id": "pair_unselected_positions",
+        "description": "Evaluate all four replacements for Pairs, including replacements outside the selected pair; those can retain a winning pair.",
+        "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+      }
+    ],
+    "source_citation": "HTP_Daily4_ENG.pdf Page 1, FIREBALL; DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+  },
+  "special_cases": [
+    {
+      "id": "quads_maximum_at_one_dollar_base",
+      "selected": "1111",
+      "drawn": "1111",
+      "fireball": "1",
+      "base_play_amount_usd": 1,
+      "board_cost_with_fireball_usd": 2,
+      "base_prize_usd": 5000,
+      "fireball_hits": 4,
+      "fireball_prize_per_hit_usd": 1350,
+      "fireball_prize_usd": 5400,
+      "combined_gross_prize_usd": 10400,
+      "derivation": "5000 + 4 * 1350",
+      "qualification": "Derived combined maximum for one Straight board at a $1 base play with Fireball; not a $1 total-cost ticket or a maximum across all wager tiers.",
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(4), Page 1"
+    },
+    {
+      "id": "straight_box_minimum_cost",
+      "base_play_amount_usd": 0.5,
+      "straight_component_cost_usd": 0.5,
+      "box_component_cost_usd": 0.5,
+      "board_cost_usd": 1,
+      "board_cost_with_fireball_usd": 2,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(9)-(12), Page 2"
+    },
+    {
+      "id": "pairs_one_dollar_base",
+      "base_play_amount_usd": 1,
+      "board_cost_with_fireball_usd": 2,
+      "base_prize_usd": 50,
+      "fireball_prize_per_hit_usd": 14,
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figure (g)(14), Page 3"
+    }
+  ],
+  "source_corrections": [
+    {
+      "supplied_claim": "Figure (g)(8) contains Straight/Box.",
+      "correction": "Figure (g)(8) contains 24-Way Box. Straight/Box occupies Figures (g)(9)-(12).",
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(8)-(12), Pages 1-2"
+    },
+    {
+      "supplied_claim": "Figures (g)(12)-(14) contain Pairs.",
+      "correction": "Figure (g)(12) is Straight/24-Way Box; (g)(13) is Combo; (g)(14) contains Front, Mid and Back Pair.",
+      "source_citation": "DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(12)-(14), Pages 2-3"
+    }
+  ],
+  "source_citation": "HTP_Daily4_ENG.pdf Pages 1-2; DAILY-4-FIGURES-g-4-g-14.pdf Figures (g)(4)-(14), Pages 1-3"
+}
