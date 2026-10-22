@@ -24,16 +24,3 @@ This dataset powers the free, verified calculation suite on PickPayouts:
 - 💰 **[Texas Cash Five Payout Calculator](https://pickpayouts.com/texas/cash-five-payout-calculator/)** (5/35 Matrix, Match 2 Free Ticket & $25K Top Prize)
 
 The live tool calculates real-time ticket costs, base game prizes, Fireball replacement tiers, and IRS W-2G threshold notices.
-
-## Data Schema & Usage
-The primary truth data resides in [`texas-daily-4.json`](./texas-daily-4.json).
-
-```json
-{
-  "state": "TX",
-  "game_name": "Daily 4",
-  "statutory_source": "Texas Administrative Code (16 TAC §401.316)",
-  "wager_options": [0.5, 1.0, 2.0, 3.0, 4.0, 5.0],
-  "retailer_cash_limit": 599.99,
-  "w2g_threshold": 600.00
-}
