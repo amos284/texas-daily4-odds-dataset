@@ -1,0 +1,146 @@
+{
+  "state": "TX",
+  "game_name": "Cash Five",
+  "statutory_authority": "16 TAC §401.308",
+  "currency": "USD",
+  "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf",
+  "matrix": {
+    "numbers_per_play": 5,
+    "minimum_number": 1,
+    "maximum_number": 35,
+    "distinct_numbers_required": true,
+    "order_matters": false,
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(c)(1)"
+  },
+  "wager": {
+    "cost_per_playboard_per_draw": 1,
+    "wager_options": [
+      1
+    ],
+    "fireball_available": false,
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+  },
+  "multi_draw": {
+    "minimum": 1,
+    "maximum": 12,
+    "consecutive_draws": true,
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(b)(1)"
+  },
+  "draw_schedule": {
+    "draws_per_day": 1,
+    "local_time": "22:12",
+    "display_time": "10:12 PM CT",
+    "time_zone": "America/Chicago",
+    "active_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "blackout_days": [
+      "Sunday"
+    ],
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+  },
+  "payout_tiers": [
+    {
+      "matches": 5,
+      "numbers_drawn": 5,
+      "prize_type": "cash",
+      "fixed_prize": 25000,
+      "conditional_on_top_prize_winning_plays_at_most": 3,
+      "odds_1_in": 324632,
+      "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+    },
+    {
+      "matches": 4,
+      "numbers_drawn": 5,
+      "prize_type": "cash",
+      "fixed_prize": 350,
+      "odds_1_in": 2164,
+      "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+    },
+    {
+      "matches": 3,
+      "numbers_drawn": 5,
+      "prize_type": "cash",
+      "fixed_prize": 15,
+      "odds_1_in": 75,
+      "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+    },
+    {
+      "matches": 2,
+      "numbers_drawn": 5,
+      "prize_type": "free_ticket",
+      "prize_description": "Free Cash Five Quick Pick ticket",
+      "ticket_value": 1,
+      "odds_1_in": 8,
+      "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+    }
+  ],
+  "free_ticket_redemption": {
+    "drawing": "next_available_draw_at_redemption",
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf (ticket type and value); Altura_Retailer_Manual_APPROVED_wth_links.pdf, printed page 54, CASH FIVE (next available draw); https://www.texaslottery.com/export/sites/lottery/Documents/retailers/Altura_Retailer_Manual_APPROVED_wth_links.pdf"
+  },
+  "top_prize_liability": {
+    "applies_when_top_prize_winning_plays_exceed": 3,
+    "liability_cap_per_draw": 75000,
+    "allocation": "Divide the cap equally among top-prize winning plays, not individual people.",
+    "payment_rounding": "Round down to whole dollars.",
+    "prize_per_winning_play_formula": "floor(75000 / topPrizeWinningPlays)",
+    "unpaid_remainder": "Applied to offset prize expense.",
+    "source_citation": "16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+  },
+  "prize_award_rule": {
+    "maximum_prize_categories_per_play": 1,
+    "awarded_category": "highest_matching_category_only",
+    "source_citation": "16 TAC §401.308(c), One prize per play, official commission rule reprint, comm_meeting_06212018_SectionVI.pdf, printed page 5; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2018/comm_meeting_06212018_SectionVI.pdf"
+  },
+  "overall_odds": {
+    "odds_1_in": 7.2,
+    "includes_free_ticket_prizes": true,
+    "scope": "per_play_per_draw",
+    "published_odds_are_rounded": true,
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+  },
+  "claims": {
+    "retailer_prize_limit": 599,
+    "claim_center_or_mail_for_prizes_over": 599,
+    "minimum_whole_dollar_nonretailer_prize": 600,
+    "mail_claim_requires_signed_ticket": true,
+    "mail_claim_requires_completed_claim_form": true,
+    "claim_deadline_days_after_draw": 180,
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 1, Claiming Your Prize; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+  },
+  "source_audit": {
+    "checked_on": "2026-10-23",
+    "method": "Official website and official PDF web-reader/indexed extracts. Direct PDF downloads returned HTTP 403; no original PDF was archived.",
+    "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 1, Claiming Your Prize; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; 16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf",
+    "sources": [
+      {
+        "requested_url": "https://www.texaslottery.com/export/sites/lottery/Games/Cash_Five/index.html#HowToPlay",
+        "status": "Read through web reader; linked brochure used below.",
+        "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+      },
+      {
+        "requested_url": "https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG.pdf",
+        "status": "Requested English-only file could not be retrieved. Inspected official English/Spanish brochure linked from the current game page.",
+        "used_url": "https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf",
+        "source_citation": "HTP_CashFive_ENG_SPAN.pdf Page 1, Claiming Your Prize; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf; HTP_CashFive_ENG_SPAN.pdf Page 2, How To Play / Multi-Draw / How To Win; https://www.texaslottery.com/export/sites/lottery/Documents/HTP_CashFive_ENG_SPAN.pdf"
+      },
+      {
+        "requested_url": "https://texreg.sos.state.tx.us/public/readtac$ext.TacPage?sl=R&app=9&p_dir=&p_rloc=&p_tloc=&p_ploc=&pg=1&p_tac=&ti=16&pt=9&ch=401&rl=308",
+        "status": "Legacy URL returns a site-moved page. Rule details checked against an official commission reprint; current consolidated SOS text was not retrieved.",
+        "used_url": "https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf",
+        "source_citation": "16 TAC §401.308(d), Figure 16 TAC §401.308(d), official commission rule reprint, printed page 69; https://www.texaslottery.com/export/sites/lottery/Documents/legal/meetings/2020/comm_meeting_08062020_SectionVI.pdf"
+      },
+      {
+        "used_url": "https://www.texaslottery.com/export/sites/lottery/Documents/retailers/Altura_Retailer_Manual_APPROVED_wth_links.pdf",
+        "status": "Supplemental official retailer manual indexed extract used for free-ticket next-available-draw timing.",
+        "source_citation": "Altura_Retailer_Manual_APPROVED_wth_links.pdf, printed page 54; https://www.texaslottery.com/export/sites/lottery/Documents/retailers/Altura_Retailer_Manual_APPROVED_wth_links.pdf"
+      }
+    ]
+  }
+}

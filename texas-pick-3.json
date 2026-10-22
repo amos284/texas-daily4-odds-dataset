@@ -1,0 +1,186 @@
+{
+  "state": "TX",
+  "game_name": "Pick 3",
+  "statutory_authority": "Texas Administrative Code (16 TAC §401.307)",
+  "source_urls": [
+    "https://www.texaslottery.com/export/sites/lottery/Games/Pick_3/index.html#HowToPlay",
+    "https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf",
+    "https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf",
+    "https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+  ],
+  "wager_options": [
+    0.5,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "multi_draw_range": [
+    1,
+    24
+  ],
+  "draw_schedule": {
+    "draws_per_day": 4,
+    "draw_times": [
+      "10:00 AM CT",
+      "12:27 PM CT",
+      "6:00 PM CT",
+      "10:12 PM CT"
+    ],
+    "active_days": "Monday-Saturday",
+    "blackout_days": "Sunday"
+  },
+  "play_styles": {
+    "STRAIGHT": {
+      "official_name": "Exact Order",
+      "description": "Match all three digits in exact order. One-dollar amounts mean a $1 base board, costing $2 with FIREBALL. Triples can produce three separate FIREBALL wins: $500 base plus 3 x $180 = $1,040. The official list offers Exact Order, Any Order, Exact/Any Order and Combo; no Pair play is listed.",
+      "digits_required": 3,
+      "cost_multiplier": 1,
+      "min_wager": 0.5
+    },
+    "BOX_3_WAY": {
+      "official_name": "Any Order",
+      "description": "Match all three digits in any order; two equal digits and one different digit (3 permutations). One-dollar amounts mean a $1 base board, costing $2 with FIREBALL. Each replacement position is evaluated separately.",
+      "digits_required": 3,
+      "cost_multiplier": 1,
+      "min_wager": 0.5
+    },
+    "BOX_6_WAY": {
+      "official_name": "Any Order",
+      "description": "Match all three digits in any order; three different digits (6 permutations). One-dollar amounts mean a $1 base board, costing $2 with FIREBALL. Each replacement position is evaluated separately.",
+      "digits_required": 3,
+      "cost_multiplier": 1,
+      "min_wager": 0.5
+    },
+    "STRAIGHT_BOX_3_WAY": {
+      "official_name": "Exact/Any Order",
+      "description": "3-WAY Exact/Any Order: a $1 total base board allocates $0.50 to each component; cost is $2 with FIREBALL. An exact base match pays $330 combined; an any-order-only match pays $80. Payout rows separate EXACT_COMPONENT and ANY_COMPONENT, each normalized to the SAME $1 total board; add both components on an exact hit. Each FIREBALL exact-component hit also earns the any-component prize. Maxima refer to each component separately and need not occur together. Published total base-board costs are $1, $2, $4, $6, $8 and $10; wager_options gives the per-component amounts.",
+      "digits_required": 3,
+      "cost_multiplier": 1,
+      "min_wager": 1
+    },
+    "STRAIGHT_BOX_6_WAY": {
+      "official_name": "Exact/Any Order",
+      "description": "6-WAY Exact/Any Order: a $1 total base board allocates $0.50 to each component; cost is $2 with FIREBALL. An exact base match pays $290 combined; an any-order-only match pays $40. Payout rows separate EXACT_COMPONENT and ANY_COMPONENT, each normalized to the SAME $1 total board; add both components on an exact hit. Each FIREBALL exact-component hit also earns the any-component prize. Maxima refer to each component separately and need not occur together. Published total base-board costs are $1, $2, $4, $6, $8 and $10; wager_options gives the per-component amounts.",
+      "digits_required": 3,
+      "cost_multiplier": 1,
+      "min_wager": 1
+    },
+    "COMBO_3_WAY": {
+      "official_name": "Combo",
+      "description": "Cover all 3 distinct exact-order permutations on one ticket. One-dollar payout amounts mean $1 PER covered permutation, not $1 total ticket cost. Total base board cost at that amount is $3, doubled with FIREBALL. Only one base straight permutation wins.",
+      "digits_required": 3,
+      "cost_multiplier": 3,
+      "min_wager": 0.5
+    },
+    "COMBO_6_WAY": {
+      "official_name": "Combo",
+      "description": "Cover all 6 distinct exact-order permutations on one ticket. One-dollar payout amounts mean $1 PER covered permutation, not $1 total ticket cost. Total base board cost at that amount is $6, doubled with FIREBALL. Only one base straight permutation wins.",
+      "digits_required": 3,
+      "cost_multiplier": 6,
+      "min_wager": 0.5
+    }
+  },
+  "payout_tiers": [
+    {
+      "play_style": "STRAIGHT",
+      "pattern_type": "ALL_DISTINCT",
+      "base_odds": "1:1,000",
+      "base_payout_on_one_dollar": 500,
+      "fireball_payout_per_win_on_one_dollar": 180,
+      "max_fireball_wins_possible": 1,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(4) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT ORDER: 3 different numbers | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "STRAIGHT",
+      "pattern_type": "ONE_REPEATED_DIGIT",
+      "base_odds": "1:1,000",
+      "base_payout_on_one_dollar": 500,
+      "fireball_payout_per_win_on_one_dollar": 180,
+      "max_fireball_wins_possible": 2,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(4) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT ORDER: 2 like numbers and 1 different number | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "STRAIGHT",
+      "pattern_type": "TRIPLES",
+      "base_odds": "1:1,000",
+      "base_payout_on_one_dollar": 500,
+      "fireball_payout_per_win_on_one_dollar": 180,
+      "max_fireball_wins_possible": 3,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(4) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT ORDER: 3 like numbers | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "BOX_3_WAY",
+      "pattern_type": "3_WAY",
+      "base_odds": "1:333",
+      "base_payout_on_one_dollar": 160,
+      "fireball_payout_per_win_on_one_dollar": 60,
+      "max_fireball_wins_possible": 3,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(5) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, ANY ORDER: 3-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "BOX_6_WAY",
+      "pattern_type": "6_WAY",
+      "base_odds": "1:167",
+      "base_payout_on_one_dollar": 80,
+      "fireball_payout_per_win_on_one_dollar": 30,
+      "max_fireball_wins_possible": 2,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(6) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, ANY ORDER: 6-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "STRAIGHT_BOX_3_WAY",
+      "pattern_type": "3_WAY_EXACT_COMPONENT",
+      "base_odds": "1:1,000",
+      "base_payout_on_one_dollar": 250,
+      "fireball_payout_per_win_on_one_dollar": 90,
+      "max_fireball_wins_possible": 2,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(7) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT/ANY ORDER: 3-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf; PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(4) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; $1 total split board: exact component only; exact-match base prize also includes the ANY_COMPONENT row."
+    },
+    {
+      "play_style": "STRAIGHT_BOX_3_WAY",
+      "pattern_type": "3_WAY_ANY_COMPONENT",
+      "base_odds": "1:333",
+      "base_payout_on_one_dollar": 80,
+      "fireball_payout_per_win_on_one_dollar": 30,
+      "max_fireball_wins_possible": 3,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(7) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT/ANY ORDER: 3-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf; $1 total split board: any component, including its award on exact matches; maxima cannot be added independently."
+    },
+    {
+      "play_style": "STRAIGHT_BOX_6_WAY",
+      "pattern_type": "6_WAY_EXACT_COMPONENT",
+      "base_odds": "1:1,000",
+      "base_payout_on_one_dollar": 250,
+      "fireball_payout_per_win_on_one_dollar": 90,
+      "max_fireball_wins_possible": 1,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 2, Figure 16 TAC §401.307(g)(8) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT/ANY ORDER: 6-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf; PICK-3-FIGURES-g-4-g-9.pdf | Page 1, Figure 16 TAC §401.307(g)(4) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; $1 total split board: exact component only; exact-match base prize also includes the ANY_COMPONENT row."
+    },
+    {
+      "play_style": "STRAIGHT_BOX_6_WAY",
+      "pattern_type": "6_WAY_ANY_COMPONENT",
+      "base_odds": "1:167",
+      "base_payout_on_one_dollar": 40,
+      "fireball_payout_per_win_on_one_dollar": 15,
+      "max_fireball_wins_possible": 2,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 2, Figure 16 TAC §401.307(g)(8) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, EXACT/ANY ORDER: 6-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf; $1 total split board: any component, including its award on exact matches; maxima cannot be added independently."
+    },
+    {
+      "play_style": "COMBO_3_WAY",
+      "pattern_type": "3_WAY",
+      "base_odds": "1:333",
+      "base_payout_on_one_dollar": 500,
+      "fireball_payout_per_win_on_one_dollar": 180,
+      "max_fireball_wins_possible": 3,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 2, Figure 16 TAC §401.307(g)(9) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, COMBO: 3-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    },
+    {
+      "play_style": "COMBO_6_WAY",
+      "pattern_type": "6_WAY",
+      "base_odds": "1:167",
+      "base_payout_on_one_dollar": 500,
+      "fireball_payout_per_win_on_one_dollar": 180,
+      "max_fireball_wins_possible": 2,
+      "source_citation": "PICK-3-FIGURES-g-4-g-9.pdf | Page 2, Figure 16 TAC §401.307(g)(9) | https://www.texaslottery.com/export/sites/lottery/Documents/PICK-3-FIGURES-g-4-g-9.pdf; pick3_fireball_prize_chart.pdf | Page 1, COMBO: 6-WAY | https://www.texaslottery.com/export/sites/lottery/Documents/pick3_fireball_prize_chart.pdf | user-supplied PDF archived at sources/pick-3/pick3_fireball_prize_chart.pdf; HTP_Pick3Fireball_ENG.pdf | Page 2 | https://www.texaslottery.com/export/sites/lottery/Documents/HTP_Pick3Fireball_ENG.pdf"
+    }
+  ]
+}
