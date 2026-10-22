@@ -17,9 +17,11 @@ A curated, machine-readable JSON dataset containing the complete statutory payou
 - **Wager Tiers**: $0.50, $1.00, $2.00, $3.00, $4.00, $5.00
 - **Multi-Draw Range**: 1 to 24 consecutive drawings
 
-## Live Implementation
-An interactive calculation tool built on this dataset is publicly accessible at:  
-👉 **[PickPayouts™ Texas Daily 4 Payout Calculator](https://pickpayouts.com/texas/daily-4-payout-calculator/)**
+## Live Interactive Utilities
+This dataset powers the free, verified calculation suite on PickPayouts:
+- 🎯 **[Texas Daily 4 Payout Calculator](https://pickpayouts.com/texas/daily-4-payout-calculator/)** (Straight, Box, Combo, Pairs & Fireball)
+- 🎲 **[Texas Pick 3 Payout Calculator](https://pickpayouts.com/texas/pick-3-payout-calculator/)** (Exact Order, Any Order, Combo & Fireball)
+- 💰 **[Texas Cash Five Payout Calculator](https://pickpayouts.com/texas/cash-five-payout-calculator/)** (5/35 Matrix, Match 2 Free Ticket & $25K Top Prize)
 
 The live tool calculates real-time ticket costs, base game prizes, Fireball replacement tiers, and IRS W-2G threshold notices.
 
